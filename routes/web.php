@@ -26,7 +26,9 @@ Route::post('contactus/submit', 'contactus_Controller@submit');
 Auth::routes();
 
 Route::get('/blog', 'HomeController@index')->name('home');
+
 Route::get('/EspaceMembre', 'HomeController@index')->name('home');
+
 Route::get('/home', 'HomeController@index')->name('home');
 
 
