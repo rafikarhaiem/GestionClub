@@ -21,11 +21,14 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
 * `JSON PHP Extension`
 
 # Installation 
+
+* `cd /NomDuDossier`
+
+* `composer install`
+
 * `Configurer votre base de données MySQL dans le fichier .env`
 
 <img src="https://i.imgur.com/yGzJh7z.png" width="400" />
-
-* `cd /NomDuDossier`
 
 * `php artisan migrate`
 
