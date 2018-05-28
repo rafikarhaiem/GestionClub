@@ -11,28 +11,33 @@
 |
 */
 
-Route::get('/', function () {
-    return view('CSC_Home');
-});
-Route::get('oldindex', function () {
-    return view('oldindex');
-});
-Route::get('blog', function () {
-    return view('blog-single');
-});
+Route::get('/','MainController@index');
 
-/*Route::get('Ensat_CD', function () {
-    return view('ECC_Home');
-});*/
+Route::get('old','MainController@oldIndex');
+
+Route::get('index.html','MainController@index');
 
 Route::get('Ensat_CD', 'InscriptionsCPC_Controller@getData');
+
 Route::post('inscriptionCPC/submit', 'InscriptionsCPC_Controller@submit');
 
 Route::post('contactus/submit', 'contactus_Controller@submit');
 
 Auth::routes();
-Route::get('EspaceMembre',function(){
-  return view('auth/login');
-});
 
+Route::get('/blog', 'HomeController@index')->name('home');
+Route::get('/EspaceMembre', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+// Route::get('oldindex', function () {
+//     return view('oldindex');
+// });
+// Route::get('blog', function () {
+//     return view('blog-single');
+// });
+
+/*Route::get('Ensat_CD', function () {
+    return view('ECC_Home');
+});*/

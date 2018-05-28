@@ -15,7 +15,7 @@ class InscriptionsCPC_Controller extends Controller
         'Participant1Mail' => 'required|between:5,50|email',
         'CoachName' => 'required|between:1,50',
         'CoachMail' => 'required|between:5,50|email',
-        'CoachPhone' => 'required|between:10,20'
+        'CoachPhone' => 'required|between:10,20' 
       ];
 
       $validator = Validator::make($request->all(),$rules );
