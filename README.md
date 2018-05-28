@@ -5,10 +5,20 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
 **Developpé Par :**
   - KHALIKINE Noueman
   - EL BANI Ilyas
-  - EL MERS Abdelkrim
+  - EL MERSS Abdelkrim
   - GHLIEL Hatim
   - FETTOUKH AMINE
   - BOUJIDA YASSINE
+
+# Requis 
+* `PHP >= 7.1.3`
+* `OpenSSL PHP Extension`
+* `PDO PHP Extension`
+* `Mbstring PHP Extension`
+* `Tokenizer PHP Extension`
+* `XML PHP Extension`
+* `Ctype PHP Extension`
+* `JSON PHP Extension`
 
 # Installation 
 * `Configurer votre base de données MySQL dans le fichier .env`
