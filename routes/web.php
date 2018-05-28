@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// derniere version
 Route::get('/','MainController@index');
 
 Route::get('old','MainController@oldIndex');
