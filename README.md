@@ -7,7 +7,7 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
   - EL BANI Ilyas
   - EL MERSS Abdelkrim
   - GHLIEL Hatim
-  - FETTOUKH AMINE
+  - FETTOUKH MOHAMED AMINE
   - BOUJIDA YASSINE
 
 # Requis 
