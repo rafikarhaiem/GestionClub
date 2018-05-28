@@ -10,6 +10,15 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
   - FETTOUKH AMINE
   - BOUJIDA YASSINE
 
+# Installation 
+* `Configurer votre base de données MySQL dans le fichier .env`
+
+<img src="https://i.imgur.com/yGzJh7z.png" width="400" />
+
+* `cd /NomDuDossier`
+
+* `php artisan migrate`
+
 # Fonctionnalités
   - Inscription/Connexion des membres.
   - Ajout/Suppression de membre.
