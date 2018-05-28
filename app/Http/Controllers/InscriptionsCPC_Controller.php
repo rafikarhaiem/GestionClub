@@ -9,13 +9,13 @@ class InscriptionsCPC_Controller extends Controller
 {
     public function submit(Request $request){
       $rules=[
-        'teamname' => 'required',
-        'university' => 'required',
-        'Participant1Name' => 'required',
-        'Participant1Mail' => 'required|email',
-        'CoachName' => 'required',
-        'CoachMail' => 'required|email',
-        'CoachPhone' => 'required'
+        'teamname' => 'required|between:1,50',
+        'university' => 'required|between:1,50',
+        'Participant1Name' => 'required|between:5,50',
+        'Participant1Mail' => 'required|between:5,50|email',
+        'CoachName' => 'required|between:1,50',
+        'CoachMail' => 'required|between:5,50|email',
+        'CoachPhone' => 'required|between:10,20'
       ];
 
       $validator = Validator::make($request->all(),$rules );
