@@ -15,16 +15,16 @@
 <!-- /Preloader -->
 
 <!-- jQuery Plugins -->
-<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<script src="vendor/bootstrap/js/popper.js"></script>
-<script src="vendor/select2/select2.min.js"></script>
+<script src="tools/jquery/jquery-3.2.1.min.js"></script>
+<script src="tools/bootstrap/js/popper.js"></script>
+<script src="tools/select2/select2.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<script src="tools/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 <script>
   $('.js-pscroll').each(function(){
     var ps = new PerfectScrollbar(this);
@@ -56,12 +56,9 @@
 
         <!-- footer follow -->
         <ul class="footer-follow">
-          <li><a target="_blank" href="https://www.facebook.com/groups/272963643213192/"><i class="fa fa-facebook"></i></a></li>
-          <li><a  href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/ensat.csc/"><i class="fa fa-facebook"></i></a></li>
+          <li><a  href="https://www.facebook.com/groups/272963643213192/"><i class="fa fa-group"></i></a></li>
+          <li><a href="https://www.instagram.com/csc.ensat/"><i class="fa fa-instagram"></i></a></li>
         </ul>
         <!-- /footer follow -->
 
