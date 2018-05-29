@@ -65,7 +65,7 @@ class contactus_Controller extends Controller
         $contactus->save();
 
 
-        return redirect('/ENSAT_CD#contact')->withInput()->with('success','Message a été envoyé avec succes');
+        return redirect('/Ensat_CD#contact')->withInput()->with('success','Message a été envoyé avec succes');
     }
 
 
