@@ -27,7 +27,7 @@
 			<li><a href="#home">Home</a></li>
 			<li><a href="#Statistiques">Statistiques</a></li>
 			<li><a href="#InscriptionComp">Inscription A La Competition</a></li>
-			<li><a href="#ListeEquipes">Services</a></li>
+			<li><a href="#ListeEquipes">Liste Des Equipes</a></li>
 			<li><a href="#contact">Contact</a></li>
 			<li><a style="color: #6195FF;"href="/"><span>Computer Science Club</span></a></li>
 		</ul>
