@@ -12,22 +12,24 @@
         <div class="section-header">
           <h2 class="title">Pourquoi Nous Rejoindre?</h2>
         </div>
-        <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
+        <p>Le Computer Science Club a de plus en plus de renommée dans notre etablissement
+            et meme hors de celui-ci.Le devouement des membres s'accentue de jour en jour ,
+              avec nous votre carriere IT est en mains sures.</p>
         <div class="feature">
           <i class="fa fa-check"></i>
-          <p>Quis varius quam quisque id diam vel quam elementum.</p>
+          <p>Des formations mensuelles.</p>
         </div>
         <div class="feature">
           <i class="fa fa-check"></i>
-          <p>Mauris augue neque gravida in fermentum.</p>
+          <p>Des projets annuels.</p>
         </div>
         <div class="feature">
           <i class="fa fa-check"></i>
-          <p>Orci phasellus egestas tellus rutrum.</p>
+          <p>Des Competitions De Coding.</p>
         </div>
         <div class="feature">
           <i class="fa fa-check"></i>
-          <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
+          <p>Des Certification de Renommée Internationales.</p>
         </div>
       </div>
       <!-- /why choose us content -->

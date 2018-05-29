@@ -9,7 +9,7 @@
 
       <!-- Section header -->
       <div class="section-header text-center">
-        <h2 class="title">Ancien Evenements</h2>
+        <h2 class="title">Anciens Evenements</h2>
       </div>
       <!-- /Section header -->
 
