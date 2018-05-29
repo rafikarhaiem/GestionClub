@@ -13,7 +13,7 @@
     <!-- Row -->
     <div class="row">
       <div class="section-header text-center">
-        <h2 class="title white-text">Liste Des Equipes Inscrites </h2>
+        <h2 class="title white-text">Liste Des Equipes Participantes </h2>
       </div>
 
       <div class="">
