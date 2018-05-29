@@ -6,11 +6,12 @@
 
 <div class="container">
     @foreach($data as $article)
+
     <div class="row justify-content-center">
         <div class="col-md-8">
             
             <div class="card">
-                <div class="card-header">{{$article->Titre}} - <span class="auteur">Par {{$article->Auteur}} </span></div>
+                <div class="card-header">{{$article->Titre}} - <span class="auteur">Par {{$article->Auteur}} - {{ date('d M y', strtotime($article->created_at)) }}  </span></div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -29,6 +30,7 @@
             </div>
         </div>
     </div>
+
     @endforeach
 </div>
 @endsection
