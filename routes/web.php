@@ -29,9 +29,9 @@ Route::get('/blog', 'HomeController@index')->name('home');
 
 Route::get('/EspaceMembre', 'HomeController@index')->name('home');
 
-Route::get('/home', 'HomeController@index')->name('home');
+//Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('/home','ArticleController@index');
 
 // Route::get('oldindex', function () {
 //     return view('oldindex');
