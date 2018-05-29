@@ -10,7 +10,7 @@ class ArticleController extends Controller
 {
     //
     public function index() {
-        $data = article::get();
+        $data = article::orderBy('created_at', 'desc')->get();
         return view('/home')->with('data',$data);
     }
 
@@ -21,7 +21,7 @@ class ArticleController extends Controller
 
     public function submit(Request $request){
         $rules=[
-          'Titre' => 'required|between:1,50',
+          'Titre' => 'required|between:1,100',
           'Auteur' => 'required|between:1,20',
           'Contenu' => 'required|min:5',
         ];

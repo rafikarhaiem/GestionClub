@@ -11,7 +11,7 @@
         <div class="col-md-8">
             
             <div class="card">
-                <div class="card-header">{{$article->Titre}} - <span class="auteur">Par {{$article->Auteur}} - {{ date('d M y', strtotime($article->created_at)) }}  </span></div>
+                <div class="card-header">{{$article->Titre}} - <span class="auteur">Par {{$article->Auteur}} - {{ date('d M y H:m', strtotime($article->created_at)) }}  </span></div>
 
                 <div class="card-body">
                     @if (session('status'))
