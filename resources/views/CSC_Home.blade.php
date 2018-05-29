@@ -15,10 +15,11 @@
 @section('NavigationBar')
 <!--  Main navigation  -->
 <ul class="main-nav nav navbar-nav navbar-right">
-	<li><a href="#home">Home</a></li>
-	<li><a href="#about">About</a></li>
-	<li><a href="#portfolio">Events</a></li>
+	<li><a href="#home">Accueil</a></li>
+	<li><a href="#about">Qui Sommes Nous?</a></li>
+	<li><a href="#portfolio">Evenements</a></li>
 	<li><a href="#service">Services</a></li>
+	<li><a href="#joinus">Nous Rejoindre</a></li>
 	<li><a href="#contact">Contact</a></li>
 	<li><a href="login">Espace Membre</a></li>
 	<li><a style="color:tomato;"href="Ensat_CD"><span >Ensat Coding Challenge</span></a></li>

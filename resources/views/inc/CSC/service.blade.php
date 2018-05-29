@@ -9,7 +9,7 @@
 
       <!-- Section header -->
       <div class="section-header text-center">
-        <h2 class="title">What we offer</h2>
+        <h2 class="title">Activités</h2>
       </div>
       <!-- /Section header -->
 

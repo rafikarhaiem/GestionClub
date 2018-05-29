@@ -1,5 +1,5 @@
 <!-- Why Choose Us -->
-<div id="features" class="section md-padding bg-grey">
+<div id="joinus" class="section md-padding bg-grey">
 
   <!-- Container -->
   <div class="container">
