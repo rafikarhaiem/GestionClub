@@ -1,4 +1,6 @@
 <!-- About -->
+<div id="about" class="section md-padding">
+
 <!-- Container -->
 <div class="container">
 
@@ -7,7 +9,7 @@
 
 		<!-- Section header -->
 		<div class="section-header text-center">
-			<h2 class="title">Welcome to our Club</h2>
+			<h2 class="title">Bienvenue Dans Notre Club</h2>
 		</div>
 		<!-- /Section header -->
 
@@ -26,7 +28,7 @@
 			<div class="about">
 				<i class="	fa fa-mortar-board"></i>
 				<h3>Nos Membres</h3>
-				<p>Des Etudiants Brillants,Devoués Et Passionés Par Le Domaine IT,Notre Fierté !</p>
+				<p>Des Etudiants Brillants, Devoués Et Passionés Par Le Domaine IT, Notre Fierté !</p>
 			</div>
 		</div>
 		<!-- /about -->
@@ -36,7 +38,7 @@
 			<div class="about">
 				<i class="fa fa-user"></i>
 				<h3>Notre Parrain</h3>
-				<p>Monsieur Khalid Amechnoue.</p>
+				<p>Mr. Khalid Amechnoue.</p>
 			</div>
 		</div>
 		<!-- /about -->
