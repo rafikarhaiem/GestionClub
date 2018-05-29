@@ -1,8 +1,4 @@
 <!-- About -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<div id="about" class="section md-padding">
 <!-- Container -->
 <div class="container">
 
@@ -18,7 +14,7 @@
 		<!-- about -->
 		<div class="col-md-4">
 			<div class="about">
-				<i class="glyphicon glyphicon-home"></i>
+				<i class="fa fa-home"></i>
 				<h3>Notre Maison </h3>
 				<p>L'Ecole Nationale Des Sciences Appliquées De Tanger Qui Nous Acceuille A Bras Ouverts Chaque Jour.</p>
 			</div>
@@ -28,7 +24,7 @@
 		<!-- about -->
 		<div class="col-md-4">
 			<div class="about">
-				<i class="glyphicon glyphicon-education"></i>
+				<i class="	fa fa-mortar-board"></i>
 				<h3>Nos Membres</h3>
 				<p>Des Etudiants Brillants,Devoués Et Passionés Par Le Domaine IT,Notre Fierté !</p>
 			</div>
@@ -38,7 +34,7 @@
 		<!-- about -->
 		<div class="col-md-4">
 			<div class="about">
-				<i class="glyphicon glyphicon-user"></i>
+				<i class="fa fa-user"></i>
 				<h3>Notre Parrain</h3>
 				<p>Monsieur Khalid Amechnoue.</p>
 			</div>
