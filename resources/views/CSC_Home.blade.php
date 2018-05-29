@@ -18,7 +18,7 @@
 	<li><a href="#home">Accueil</a></li>
 	<li><a href="#about">Qui Sommes Nous?</a></li>
 	<li><a href="#portfolio">Evenements</a></li>
-	<li><a href="#service">Activites</a></li>
+	<li><a href="#service">Services</a></li>
 	<li><a href="#joinus">Nous Rejoindre</a></li>
 	<li><a href="#contact">Contact</a></li>
 	<li><a href="login">Espace Membre</a></li>
