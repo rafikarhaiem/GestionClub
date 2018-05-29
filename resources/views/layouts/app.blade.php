@@ -26,7 +26,13 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
+                
                 <a class="navbar-brand" href="{{ url('/') }}">
+                    {{-- {{ config('Home', 'Home') }} --}}
+                    <img class="logo" src="img/CSC_Logo.png" width="30" alt="logo">
+                </a>
+                    
+                <a class="navbar-brand" href="{{ url('/home') }}">
                     {{ config('Computer Science Club', 'Computer Science Club') }}
                 </a>
 
