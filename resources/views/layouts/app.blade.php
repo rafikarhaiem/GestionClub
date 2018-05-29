@@ -32,7 +32,7 @@
                     <img class="logo" src="img/CSC_Logo.png" width="30" alt="logo">
                 </a>
                     
-                <a class="navbar-brand" href="{{ url('/home') }}">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('Computer Science Club', 'Computer Science Club') }}
                 </a>
 
