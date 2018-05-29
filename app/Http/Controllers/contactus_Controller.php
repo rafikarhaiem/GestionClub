@@ -9,7 +9,7 @@ use Mail;
 
 class contactus_Controller extends Controller
 {
-  public function submit(Request $request){
+  public function submitHome(Request $request){
     $rules=[
       'Name' => 'required',
       'Email' => 'required|email',
@@ -22,7 +22,8 @@ class contactus_Controller extends Controller
       if ($validator->fails()) {
           return redirect('/#contact')
                       ->withErrors($validator)
-                      ->withInput();
+                      ->withInput()
+                      ->with('contacterrors',true);
       }
 
       //Create New Message
@@ -33,18 +34,39 @@ class contactus_Controller extends Controller
       $contactus->Message       = $request->input('Message'     );
       $contactus->save();
 
-    /*  Mail::send('email',
-        array(
-          'name'=>$request->get('Name'),
-          'email'=>$request->get('Email'),
-          'user_message'=>$request->get('Message'),
-          'subject'=>$request->get('Subject')
-        ),function($message){
-          $message->from('csc.ensatanger@gmail.com');
-          $message->to('csc.ensatanger@gmail.com','Admin');
-        }
-      );*/
 
       return redirect('/#contact')->withInput()->with('success','Message a été envoyé avec succes');
   }
+
+
+    public function submitECC(Request $request){
+      $rules=[
+        'Name' => 'required',
+        'Email' => 'required|email',
+        'Subject' => 'required',
+        'Message' => 'required'
+      ];
+
+      $validator = Validator::make($request->all(),$rules );
+
+        if ($validator->fails()) {
+            return redirect('/Ensat_CD#contact')
+                        ->withErrors($validator)
+                        ->withInput()
+                        ->with('contacterrors',true);
+        }
+
+        //Create New Message
+        $contactus= new ContactUS;
+        $contactus->Name          = $request->input('Name'        );
+        $contactus->Email         = $request->input('Email'       );
+        $contactus->Subject       = $request->input('Subject'     );
+        $contactus->Message       = $request->input('Message'     );
+        $contactus->save();
+
+
+        return redirect('/ENSAT_CD#contact')->withInput()->with('success','Message a été envoyé avec succes');
+    }
+
+
 }

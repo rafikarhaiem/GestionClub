@@ -13,15 +13,15 @@
 // derniere version
 Route::get('/','MainController@index');
 
-Route::get('old','MainController@oldIndex');
-
 Route::get('index.html','MainController@index')->name('');
 
 Route::get('Ensat_CD', 'InscriptionsCPC_Controller@getData');
 
 Route::post('inscriptionCPC/submit', 'InscriptionsCPC_Controller@submit');
 
-Route::post('contactus/submit', 'contactus_Controller@submit');
+Route::post('contactushome/submit', 'contactus_Controller@submitHome');
+Route::post('contactusECC/submit', 'contactus_Controller@submitECC');
+//Route::post('contactus/submit', 'contactus_Controller@submit');
 
 Auth::routes();
 

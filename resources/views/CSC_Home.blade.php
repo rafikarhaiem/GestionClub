@@ -52,6 +52,6 @@
 	@include('inc.CSC.service')
 	@include('inc.CSC.joinus')
 	@include('inc.CSC.Statistiques')
-	@include('inc.contactus')
+	@include('inc.CSC.contactus')
 
 @endsection('content')

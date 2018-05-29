@@ -58,7 +58,7 @@
 	@include('inc.ECC.InscriptionCompetition')
 	@include('inc.ECC.ListeEquipes')
 
-	@include('inc.contactus')
+	@include('inc.ECC.contactus')
 
 
 
