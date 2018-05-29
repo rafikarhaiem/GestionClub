@@ -18,7 +18,7 @@ class CreateArticlesTable extends Migration
             $table->string('Titre');
             $table->string('Auteur');
             $table->text('Contenu');
-            $table->timestamps();
+            $table->timestamps()->default(DB::raw('CURRENT_TIMESTAMP'));
         });
     }
 
