@@ -15,7 +15,7 @@ Route::get('/','MainController@index');
 
 Route::get('old','MainController@oldIndex');
 
-Route::get('index.html','MainController@index');
+Route::get('index.html','MainController@index')->name('');
 
 Route::get('Ensat_CD', 'InscriptionsCPC_Controller@getData');
 

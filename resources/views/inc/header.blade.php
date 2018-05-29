@@ -10,7 +10,7 @@
       <div class="navbar-header">
         <!-- Logo -->
         <div class="navbar-brand">
-          <a href="index.html">
+          <a href="/">
             <img class="logo-alt" src="img/CSC_Logo.png" alt="logo">
             <img class="logo" src="img/CSC_Logo.png" alt="logo">
           </a>
