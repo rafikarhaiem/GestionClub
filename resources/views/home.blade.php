@@ -3,6 +3,7 @@
 <link href="{{ asset('css/myCss.css') }}" rel="stylesheet">
 @endsection
 @section('content')
+
 <div class="container">
     @foreach($data as $article)
     <div class="row justify-content-center">
@@ -20,7 +21,7 @@
                         
                     @endif
 
-                    <p>{{$article->Message}}</p>
+                    <p>{{$article->Contenu}}</p>
                    
                     
                 </div>
