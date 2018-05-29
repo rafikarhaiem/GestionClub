@@ -26,11 +26,15 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
 
 * `composer install`
 
-* `Configurer votre base de données MySQL dans le fichier .env`
+* `php artisan key:generate`
+
+* `Create the .env file, from the .env.example `
 
 <img src="https://i.imgur.com/yGzJh7z.png" width="400" />
 
 * `php artisan migrate`
+
+* `Done !`
 
 # Fonctionnalités
   - Inscription/Connexion des membres.
