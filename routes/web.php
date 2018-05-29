@@ -30,3 +30,13 @@ Route::get('/blog', 'ArticleController@index')->name('home');
 Route::get('/EspaceMembre', 'HomeController@index')->name('home');
 
 Route::get('/home','ArticleController@index');
+
+Route::get('protected', ['middleware' => ['auth', 'admin'], function() {
+    return "this page requires that you be logged in and an Admin";
+}]);
+
+Route::get('create/post','ArticleController@getArticleForm');
+
+Route::post('create/post/add', 'ArticleController@submit');
+
+Route::get('panel','ArticleController@getArticleForm');
