@@ -26,13 +26,15 @@ Une Application Laravel qui permet gérer un Espace membre utilisant MySQL, Insc
 
 * `composer install`
 
+* `Create a Database named "YOUR_DB_NAME" in mysql`
+
+* `Create the .env file, from the .env.example with database "YOUR_DB_NAME"` 
+
 * `php artisan key:generate`
 
-* `Create the .env file, from the .env.example `
+* `php artisan migrate`
 
 <img src="https://i.imgur.com/yGzJh7z.png" width="400" />
-
-* `php artisan migrate`
 
 * `Done !`
 
