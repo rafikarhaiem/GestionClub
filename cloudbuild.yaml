@@ -1,0 +1,9 @@
+steps:
+  - name: "gcr.io/cloud-builders/go"
+    args: ["install", "github.com/rafikarhaiem/GestionClub"]
+    env: ["PROJECT_ROOT=github.com/rafikarhaiem/GestionClub"]
+  - name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/{GCP_PROJECT_ID}/GestionClub:$REVISION_ID", "-f", "Dockerfile", "."]
+images:
+  - "gcr.io/{GCP_PROJECT_ID}/GestionClub:$REVISION_ID"
+
